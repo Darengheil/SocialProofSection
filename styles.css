@@ -113,5 +113,54 @@ p{
     color: hsl(0, 0%, 100%);
 }
 @media (max-width:900px) {
-
+    h1{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 1em;
+    }
+    .container{
+        margin: 0;
+        left: 5%;
+        width: 90%;
+    }
+    .stars{
+        padding: 0;
+    }
+    .description{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .starcontainer{
+        flex-direction: column;
+        width: 100%;
+        margin: 1em 0;
+        padding: 0;
+        padding-top: 1em;
+    }
+    #stair3{
+        margin-left: 0;
+    }
+    .descandstars{
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+    .profiles{
+        flex-direction: column;
+        width: 100%;
+    }
+    .profile{
+        margin: 1em 0;
+    }
+    #profile1{
+        margin-bottom: 0;
+    }
+    #profile2{
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    #profile3{
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
 }
