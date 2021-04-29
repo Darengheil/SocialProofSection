@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+body{
+    font-family: "Spartan";
+    font-size: 15px;
+}
+
+h1, h4{
+    color: hsl(300, 43%, 22%);
+}
+
+p{
+    hsl(303, 10%, 53%);
+}
+
+.descandstars{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    width: 20%;
+}
+
+.stars{
+    display: flex;
+}
+
+.profiles{
+    display: flex;
+}
