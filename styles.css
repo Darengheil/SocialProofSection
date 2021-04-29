@@ -7,20 +7,26 @@ body{
 
 h1{
     font-size: 50px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 h1, h4{
     color: hsl(300, 43%, 22%);
 }
 
+h3{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
 p{
-    hsl(303, 10%, 53%);
+    color: hsl(303, 10%, 53%);
+    margin-top: 0;
 }
 
 .container{
     position: absolute;
-    top: 15%;
+    top: 10%;
     margin: 0 10em;
 }
 
@@ -32,7 +38,8 @@ p{
 }
 
 .description{
-    width: 35%;
+    width: 30%;
+    padding-left: 2em;
 }
 
 .stars{
@@ -63,8 +70,48 @@ p{
 
 .profiles{
     display: flex;
+    flex-direction: row;
 }
 
+.profile{
+    background-color: hsl(300, 43%, 22%);
+    padding: 3em;
+    border-radius: 10px;
+    margin: 2em;
+}
+
+.profileimg{
+    min-width: 15%;
+    border-radius: 50%;
+}
+
+.profiletitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#profile1{
+    margin-bottom: 6em;
+}
+
+#profile2{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+#profile3{
+    margin-top: 6em;
+}
+
+.pictitle{
+    font-size: 14px;
+    margin-left: 2em;
+}
+
+.text{
+    color: hsl(0, 0%, 100%);
+}
 @media (max-width:900px) {
 
 }
