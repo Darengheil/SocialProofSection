@@ -5,6 +5,11 @@ body{
     font-size: 15px;
 }
 
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
 h1, h4{
     color: hsl(300, 43%, 22%);
 }
@@ -13,19 +18,53 @@ p{
     hsl(303, 10%, 53%);
 }
 
+.container{
+    position: absolute;
+    top: 15%;
+    margin: 0 10em;
+}
+
 .descandstars{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5em;
 }
 
 .description{
-    width: 20%;
+    width: 35%;
 }
 
 .stars{
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.starcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    padding: 0 2em;
+    margin-left: 3em;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+
+#stair1{
+    margin-left: 0;
+}
+
+#stair3{
+    margin-left: 6em;
 }
 
 .profiles{
     display: flex;
+}
+
+@media (max-width:900px) {
+
 }
